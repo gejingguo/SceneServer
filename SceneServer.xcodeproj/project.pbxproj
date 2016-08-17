@@ -1,0 +1,676 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9EFD42A1D64771900A11FAA /* InfoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EFD4291D64771900A11FAA /* InfoLoader.swift */; };
+		C9EFD4301D647A6C00A11FAA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9EFD42F1D647A6C00A11FAA /* main.swift */; };
+		_LinkFileRef_Error_via_Info /* Error.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Error" /* Error.framework */; };
+		_LinkFileRef_Error_via_Scene /* Error.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Error" /* Error.framework */; };
+		_LinkFileRef_Info_via_Scene /* Info.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Info" /* Info.framework */; };
+		_LinkFileRef_SwiftyJSON_via_Error /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_SwiftyJSON_via_Info /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_SwiftyJSON_via_Scene /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_SwiftyJSON_via_Util /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
+		_LinkFileRef_Util_via_Info /* Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Util" /* Util.framework */; };
+		_LinkFileRef_Util_via_Scene /* Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Util" /* Util.framework */; };
+		"__src_cc_ref_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
+		__src_cc_ref_Sources/Error/Error.swift /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Error/Error.swift /* Error.swift */; };
+		__src_cc_ref_Sources/Info/InfoManager.swift /* InfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Info/InfoManager.swift /* InfoManager.swift */; };
+		__src_cc_ref_Sources/Info/MapInfo.swift /* MapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Info/MapInfo.swift /* MapInfo.swift */; };
+		__src_cc_ref_Sources/Scene/Object/GameObject.swift /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Scene/Object/GameObject.swift /* GameObject.swift */; };
+		__src_cc_ref_Sources/Scene/Scene.swift /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Scene/Scene.swift /* Scene.swift */; };
+		__src_cc_ref_Sources/Scene/SceneManager.swift /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Scene/SceneManager.swift /* SceneManager.swift */; };
+		__src_cc_ref_Sources/Util/Vector2D.swift /* Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Util/Vector2D.swift /* Vector2D.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C9EFD4241D64311300A11FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		C9EFD4251D64311300A11FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Util";
+			remoteInfo = Util;
+		};
+		C9EFD4261D64311300A11FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Error";
+			remoteInfo = Error;
+		};
+		C9EFD4271D64311300A11FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Info";
+			remoteInfo = Info;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C9EFD4291D64771900A11FAA /* InfoLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoLoader.swift; sourceTree = "<group>"; };
+		C9EFD42F1D647A6C00A11FAA /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/SceneServer/main.swift; sourceTree = "<group>"; };
+		C9EFD4331D64884E00A11FAA /* mapinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mapinfo.json; path = Publish/Info/mapinfo.json; sourceTree = "<group>"; };
+		__PBXFileRef_Error_Info.plist /* Error_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Error_Info.plist; path = SceneServer.xcodeproj/Error_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Info_Info.plist /* Info_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info_Info.plist; path = SceneServer.xcodeproj/Info_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		__PBXFileRef_SceneServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = SceneServer.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
+		__PBXFileRef_Scene_Info.plist /* Scene_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Scene_Info.plist; path = SceneServer.xcodeproj/Scene_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/Error/Error.swift /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Info/InfoManager.swift /* InfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoManager.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Info/MapInfo.swift /* MapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInfo.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Scene/Object/GameObject.swift /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameObject.swift; path = Object/GameObject.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Scene/Scene.swift /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Scene/SceneManager.swift /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/Util/Vector2D.swift /* Vector2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2D.swift; sourceTree = "<group>"; };
+		__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftyJSON_Info.plist; path = SceneServer.xcodeproj/SwiftyJSON_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Util_Info.plist /* Util_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Util_Info.plist; path = SceneServer.xcodeproj/Util_Info.plist; sourceTree = SOURCE_ROOT; };
+		"_____Product_Error" /* Error.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Error.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Info" /* Info.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Info.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Scene" /* Scene.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Scene.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_SwiftyJSON" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Util" /* Util.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Util.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		"___LinkPhase_Error" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_Error /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Info" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_Info /* SwiftyJSON.framework in Frameworks */,
+				_LinkFileRef_Util_via_Info /* Util.framework in Frameworks */,
+				_LinkFileRef_Error_via_Info /* Error.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Scene" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_Scene /* SwiftyJSON.framework in Frameworks */,
+				_LinkFileRef_Info_via_Scene /* Info.framework in Frameworks */,
+				_LinkFileRef_Util_via_Scene /* Util.framework in Frameworks */,
+				_LinkFileRef_Error_via_Scene /* Error.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_SwiftyJSON" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Util" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				_LinkFileRef_SwiftyJSON_via_Util /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C9EFD4281D64313C00A11FAA /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/Scene/Object/GameObject.swift /* GameObject.swift */,
+			);
+			name = Object;
+			sourceTree = "<group>";
+		};
+		C9EFD42B1D64792B00A11FAA /* SceneServer */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFD42F1D647A6C00A11FAA /* main.swift */,
+			);
+			name = SceneServer;
+			sourceTree = "<group>";
+		};
+		C9EFD4311D6487FD00A11FAA /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFD4321D64881600A11FAA /* Info */,
+			);
+			name = Publish;
+			sourceTree = "<group>";
+		};
+		C9EFD4321D64881600A11FAA /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFD4331D64884E00A11FAA /* mapinfo.json */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		Dependencies_ /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				"_______Group_SwiftyJSON" /* SwiftyJSON */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		"___RootGroup_" = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Package.swift /* Package.swift */,
+				"_____Configs_" /* Configs */,
+				"_____Sources_" /* Sources */,
+				Dependencies_ /* Dependencies */,
+				"____Products_" /* Products */,
+				C9EFD4311D6487FD00A11FAA /* Publish */,
+			);
+			sourceTree = "<group>";
+		};
+		"____Products_" /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"_____Product_SwiftyJSON" /* SwiftyJSON.framework */,
+				"_____Product_Error" /* Error.framework */,
+				"_____Product_Info" /* Info.framework */,
+				"_____Product_Scene" /* Scene.framework */,
+				"_____Product_Util" /* Util.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		"_____Configs_" /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_SceneServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */,
+			);
+			name = Configs;
+			sourceTree = "<group>";
+		};
+		"_____Sources_" /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFD42B1D64792B00A11FAA /* SceneServer */,
+				"_______Group_Error" /* Error */,
+				"_______Group_Info" /* Info */,
+				"_______Group_Scene" /* Scene */,
+				"_______Group_Util" /* Util */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		"_______Group_Error" /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/Error/Error.swift /* Error.swift */,
+				__PBXFileRef_Error_Info.plist /* Error_Info.plist */,
+			);
+			name = Error;
+			path = Sources/Error;
+			sourceTree = "<group>";
+		};
+		"_______Group_Info" /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/Info/InfoManager.swift /* InfoManager.swift */,
+				__PBXFileRef_Sources/Info/MapInfo.swift /* MapInfo.swift */,
+				__PBXFileRef_Info_Info.plist /* Info_Info.plist */,
+				C9EFD4291D64771900A11FAA /* InfoLoader.swift */,
+			);
+			name = Info;
+			path = Sources/Info;
+			sourceTree = "<group>";
+		};
+		"_______Group_Scene" /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C9EFD4281D64313C00A11FAA /* Object */,
+				__PBXFileRef_Sources/Scene/Scene.swift /* Scene.swift */,
+				__PBXFileRef_Sources/Scene/SceneManager.swift /* SceneManager.swift */,
+				__PBXFileRef_Scene_Info.plist /* Scene_Info.plist */,
+			);
+			name = Scene;
+			path = Sources/Scene;
+			sourceTree = "<group>";
+		};
+		"_______Group_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */,
+				__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */,
+			);
+			name = SwiftyJSON;
+			path = "Packages/SwiftyJSON-3.0.1/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_Util" /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/Util/Vector2D.swift /* Vector2D.swift */,
+				__PBXFileRef_Util_Info.plist /* Util_Info.plist */,
+			);
+			name = Util;
+			path = Sources/Util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"______Target_Error" /* Error */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Error" /* Build configuration list for PBXNativeTarget "Error" */;
+			buildPhases = (
+				CompilePhase_Error /* Sources */,
+				"___LinkPhase_Error" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+			);
+			name = Error;
+			productName = Error;
+			productReference = "_____Product_Error" /* Error.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Info" /* Info */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Info" /* Build configuration list for PBXNativeTarget "Info" */;
+			buildPhases = (
+				CompilePhase_Info /* Sources */,
+				"___LinkPhase_Info" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_Util /* PBXTargetDependency */,
+				__Dependency_Error /* PBXTargetDependency */,
+			);
+			name = Info;
+			productName = Info;
+			productReference = "_____Product_Info" /* Info.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Scene" /* Scene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Scene" /* Build configuration list for PBXNativeTarget "Scene" */;
+			buildPhases = (
+				CompilePhase_Scene /* Sources */,
+				"___LinkPhase_Scene" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+				__Dependency_Info /* PBXTargetDependency */,
+				__Dependency_Util /* PBXTargetDependency */,
+				__Dependency_Error /* PBXTargetDependency */,
+			);
+			name = Scene;
+			productName = Scene;
+			productReference = "_____Product_Scene" /* Scene.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				CompilePhase_SwiftyJSON /* Sources */,
+				"___LinkPhase_SwiftyJSON" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"______Target_Util" /* Util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Util" /* Build configuration list for PBXNativeTarget "Util" */;
+			buildPhases = (
+				CompilePhase_Util /* Sources */,
+				"___LinkPhase_Util" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_SwiftyJSON /* PBXTargetDependency */,
+			);
+			name = Util;
+			productName = Util;
+			productReference = "_____Product_Util" /* Util.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		__RootObject_ /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = "___RootConfs_" /* Build configuration list for PBXProject "SceneServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = "___RootGroup_";
+			productRefGroup = "____Products_" /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"______Target_SwiftyJSON" /* SwiftyJSON */,
+				"______Target_Error" /* Error */,
+				"______Target_Info" /* Info */,
+				"______Target_Scene" /* Scene */,
+				"______Target_Util" /* Util */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CompilePhase_Error /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/Error/Error.swift /* Error.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Info /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/Info/InfoManager.swift /* InfoManager.swift in Sources */,
+				C9EFD42A1D64771900A11FAA /* InfoLoader.swift in Sources */,
+				C9EFD4301D647A6C00A11FAA /* main.swift in Sources */,
+				__src_cc_ref_Sources/Info/MapInfo.swift /* MapInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Scene /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/Scene/Scene.swift /* Scene.swift in Sources */,
+				__src_cc_ref_Sources/Scene/SceneManager.swift /* SceneManager.swift in Sources */,
+				__src_cc_ref_Sources/Scene/Object/GameObject.swift /* GameObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_SwiftyJSON /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Util /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				__src_cc_ref_Sources/Util/Vector2D.swift /* Vector2D.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		__Dependency_Error /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Error" /* Error */;
+			targetProxy = C9EFD4261D64311300A11FAA /* PBXContainerItemProxy */;
+		};
+		__Dependency_Info /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Info" /* Info */;
+			targetProxy = C9EFD4271D64311300A11FAA /* PBXContainerItemProxy */;
+		};
+		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = C9EFD4241D64311300A11FAA /* PBXContainerItemProxy */;
+		};
+		__Dependency_Util /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Util" /* Util */;
+			targetProxy = C9EFD4251D64311300A11FAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		_ReleaseConf_Error /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Error_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Info /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Info_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Scene /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Scene_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_SwiftyJSON /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Util /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Util_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+			};
+			name = Release;
+		};
+		"___DebugConf_Error" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Error_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Info" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Info_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Scene" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Scene_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_SwiftyJSON" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Util" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = SceneServer.xcodeproj/Util_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"_____Release_" /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SceneServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		"_______Debug_" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = __PBXFileRef_SceneServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		"___RootConfs_" /* Build configuration list for PBXProject "SceneServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"_______Debug_" /* Debug */,
+				"_____Release_" /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Error" /* Build configuration list for PBXNativeTarget "Error" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Error" /* Debug */,
+				_ReleaseConf_Error /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Info" /* Build configuration list for PBXNativeTarget "Info" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Info" /* Debug */,
+				_ReleaseConf_Info /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Scene" /* Build configuration list for PBXNativeTarget "Scene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Scene" /* Debug */,
+				_ReleaseConf_Scene /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_SwiftyJSON" /* Debug */,
+				_ReleaseConf_SwiftyJSON /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Util" /* Build configuration list for PBXNativeTarget "Util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Util" /* Debug */,
+				_ReleaseConf_Util /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = __RootObject_ /* Project object */;
+}

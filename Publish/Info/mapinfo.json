@@ -1,0 +1,16 @@
+{
+    "rows": [
+        {
+            "infoId": 1001,
+            "isStatic": true,
+            "width": 100,
+            "height": 80
+        },
+        {
+             "infoId": 1002,
+             "isStatic": true,
+             "width": 100,
+             "height": 80
+        },
+    ]
+}
