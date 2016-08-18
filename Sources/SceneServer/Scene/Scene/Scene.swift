@@ -7,8 +7,8 @@
 //
 
 import Foundation
-import Util
-import Info
+//import Util
+//import Info
 
 /// 弱引用，不托管生命周期
 struct ObjectEntry {

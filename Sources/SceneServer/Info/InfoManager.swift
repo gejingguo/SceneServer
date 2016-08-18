@@ -8,7 +8,7 @@
 
 import Foundation
 import SwiftyJSON
-import Error
+//import Error
 
 /// 配置Key
 public struct InfoKey {

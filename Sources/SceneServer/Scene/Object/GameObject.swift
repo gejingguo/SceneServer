@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import Util
+//import Util
 
 /// 游戏中场景中物件
 public class GameObject {

@@ -1,6 +1,6 @@
 import Foundation
-import Info
-import Error
+//import Info
+//import Error
 
 print("Hello, world!")
 
