@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import SwiftyJSON
 
 /// 地图配置
 public class MapInfo: InfoProtocol, CustomStringConvertible {
@@ -19,8 +18,7 @@ public class MapInfo: InfoProtocol, CustomStringConvertible {
     public var width: Double = 0
     /// 地图高度
     public var height: Double = 0
-    /// 
-    public var description: String = ""
+
     
     public init() {
         
@@ -31,12 +29,17 @@ public class MapInfo: InfoProtocol, CustomStringConvertible {
     }
     
     /// 加载配置
-    public func load(json: JSON) throws {
-        self.infoId = json["infoId"].intValue
-        self.isStatic = json["isStatic"].boolValue
-        self.width = json["width"].doubleValue
-        self.height = json["height"].doubleValue
-        self.description = json.description
+    public func load(fields: [String: AnyObject]) throws {
+        self.infoId = fields["infoId"] as? Int ?? 0
+        self.isStatic = fields["isStatic"] as? Bool ?? false
+        self.width = fields["width"] as? Double ?? 0
+        self.height = fields["height"] as? Double ?? 0
+        //self.description = fields.description
+    }
+    
+    ///
+    public var description: String {
+        return "MapInfo(infoId:\(infoId), satic:\(isStatic), width:\(width), height:\(height))"
     }
     
     /// 分配实例

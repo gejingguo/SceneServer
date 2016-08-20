@@ -7,57 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		_LinkFileRef_SwiftyJSON_via_SceneServer /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */; };
-		"__src_cc_ref_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */; };
+		C9C462151D66FA5300C1C9CB /* MapBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C462141D66FA5300C1C9CB /* MapBlock.swift */; };
+		C9C462171D67098500C1C9CB /* MapBlockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C462161D67098500C1C9CB /* MapBlockManager.swift */; };
+		C9C4621F1D68801000C1C9CB /* ConstValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9C4621E1D68801000C1C9CB /* ConstValue.swift */; };
 		__src_cc_ref_Sources/SceneServer/App/main.swift /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/App/main.swift /* main.swift */; };
 		__src_cc_ref_Sources/SceneServer/Error/Error.swift /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Error/Error.swift /* Error.swift */; };
-		__src_cc_ref_Sources/SceneServer/Info/InfoLoader.swift /* Info/InfoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* Info/InfoLoader.swift */; };
-		__src_cc_ref_Sources/SceneServer/Info/InfoManager.swift /* Info/InfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* Info/InfoManager.swift */; };
-		__src_cc_ref_Sources/SceneServer/Info/MapInfo.swift /* Info/MapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* Info/MapInfo.swift */; };
+		__src_cc_ref_Sources/SceneServer/Info/InfoLoader.swift /* InfoLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* InfoLoader.swift */; };
+		__src_cc_ref_Sources/SceneServer/Info/InfoManager.swift /* InfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* InfoManager.swift */; };
+		__src_cc_ref_Sources/SceneServer/Info/MapInfo.swift /* MapInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* MapInfo.swift */; };
 		__src_cc_ref_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift */; };
 		__src_cc_ref_Sources/SceneServer/Scene/Scene/Scene.swift /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Scene/Scene/Scene.swift /* Scene.swift */; };
 		__src_cc_ref_Sources/SceneServer/Scene/Scene/SceneManager.swift /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Scene/Scene/SceneManager.swift /* SceneManager.swift */; };
-		__src_cc_ref_Sources/SceneServer/Util/Vector2D.swift /* Util/Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Util/Vector2D.swift */; };
+		__src_cc_ref_Sources/SceneServer/Util/Vector2D.swift /* Vector2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Vector2D.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C9EFD4411D656C8D00A11FAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_SwiftyJSON";
-			remoteInfo = SwiftyJSON;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		C9C462141D66FA5300C1C9CB /* MapBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapBlock.swift; path = Config/MapBlock.swift; sourceTree = "<group>"; };
+		C9C462161D67098500C1C9CB /* MapBlockManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapBlockManager.swift; path = Config/MapBlockManager.swift; sourceTree = "<group>"; };
+		C9C4621A1D67D60F00C1C9CB /* mapinfo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = mapinfo.json; path = Publish/Info/mapinfo.json; sourceTree = SOURCE_ROOT; };
+		C9C4621D1D67D6FB00C1C9CB /* map1001.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = map1001.json; path = Publish/MapBlock/map1001.json; sourceTree = SOURCE_ROOT; };
+		C9C4621E1D68801000C1C9CB /* ConstValue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConstValue.swift; path = Config/ConstValue.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Package.swift /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		__PBXFileRef_SceneServer.xcodeproj/Configs/Project.xcconfig /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Project.xcconfig; path = SceneServer.xcodeproj/Configs/Project.xcconfig; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SceneServer/App/main.swift /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = main.swift; path = App/main.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SceneServer/Error/Error.swift /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Error/Error.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* Info/InfoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info/InfoLoader.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* Info/InfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info/InfoManager.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* Info/MapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info/MapInfo.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* InfoLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoLoader.swift; path = Info/InfoLoader.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* InfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InfoManager.swift; path = Info/InfoManager.swift; sourceTree = "<group>"; };
+		__PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* MapInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapInfo.swift; path = Info/MapInfo.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = GameObject.swift; path = Scene/Object/GameObject.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SceneServer/Scene/Scene/Scene.swift /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Scene.swift; path = Scene/Scene/Scene.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/SceneServer/Scene/Scene/SceneManager.swift /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SceneManager.swift; path = Scene/Scene/SceneManager.swift; sourceTree = "<group>"; };
-		__PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Util/Vector2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util/Vector2D.swift; sourceTree = "<group>"; };
-		__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = SwiftyJSON_Info.plist; path = SceneServer.xcodeproj/SwiftyJSON_Info.plist; sourceTree = SOURCE_ROOT; };
+		__PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Vector2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Vector2D.swift; path = Util/Vector2D.swift; sourceTree = "<group>"; };
 		"_____Product_SceneServer" /* SceneServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = SceneServer; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_SwiftyJSON" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		"___LinkPhase_SceneServer" /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 0;
-			files = (
-				_LinkFileRef_SwiftyJSON_via_SceneServer /* SwiftyJSON.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		"___LinkPhase_SwiftyJSON" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
@@ -67,7 +52,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C9EFD4421D65706E00A11FAA /* App */ = {
+		C9C4620A1D66E23B00C1C9CB /* App */ = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Sources/SceneServer/App/main.swift /* main.swift */,
@@ -75,34 +60,7 @@
 			name = App;
 			sourceTree = "<group>";
 		};
-		C9EFD4431D65707700A11FAA /* Info */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* Info/MapInfo.swift */,
-				__PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* Info/InfoManager.swift */,
-				__PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* Info/InfoLoader.swift */,
-			);
-			name = Info;
-			sourceTree = "<group>";
-		};
-		C9EFD4441D65708000A11FAA /* Util */ = {
-			isa = PBXGroup;
-			children = (
-				__PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Util/Vector2D.swift */,
-			);
-			name = Util;
-			sourceTree = "<group>";
-		};
-		C9EFD4451D65708B00A11FAA /* Scene */ = {
-			isa = PBXGroup;
-			children = (
-				C9EFD4471D6570D200A11FAA /* Object */,
-				C9EFD4481D6570DD00A11FAA /* Scene */,
-			);
-			name = Scene;
-			sourceTree = "<group>";
-		};
-		C9EFD4461D6570A100A11FAA /* Error */ = {
+		C9C4620B1D66E25100C1C9CB /* Error */ = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Sources/SceneServer/Error/Error.swift /* Error.swift */,
@@ -110,15 +68,34 @@
 			name = Error;
 			sourceTree = "<group>";
 		};
-		C9EFD4471D6570D200A11FAA /* Object */ = {
+		C9C4620C1D66E26300C1C9CB /* Info */ = {
 			isa = PBXGroup;
 			children = (
-				__PBXFileRef_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift */,
+				__PBXFileRef_Sources/SceneServer/Info/MapInfo.swift /* MapInfo.swift */,
+				__PBXFileRef_Sources/SceneServer/Info/InfoLoader.swift /* InfoLoader.swift */,
+				__PBXFileRef_Sources/SceneServer/Info/InfoManager.swift /* InfoManager.swift */,
 			);
-			name = Object;
+			name = Info;
 			sourceTree = "<group>";
 		};
-		C9EFD4481D6570DD00A11FAA /* Scene */ = {
+		C9C4620D1D66E28900C1C9CB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				__PBXFileRef_Sources/SceneServer/Util/Vector2D.swift /* Vector2D.swift */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		C9C4620E1D66E29D00C1C9CB /* Scene */ = {
+			isa = PBXGroup;
+			children = (
+				C9C462101D66E2B400C1C9CB /* Object */,
+				C9C4620F1D66E2AB00C1C9CB /* Scene */,
+			);
+			name = Scene;
+			sourceTree = "<group>";
+		};
+		C9C4620F1D66E2AB00C1C9CB /* Scene */ = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Sources/SceneServer/Scene/Scene/SceneManager.swift /* SceneManager.swift */,
@@ -127,21 +104,57 @@
 			name = Scene;
 			sourceTree = "<group>";
 		};
-		Dependencies_ /* Dependencies */ = {
+		C9C462101D66E2B400C1C9CB /* Object */ = {
 			isa = PBXGroup;
 			children = (
-				"_______Group_SwiftyJSON" /* SwiftyJSON */,
+				__PBXFileRef_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift */,
 			);
-			name = Dependencies;
+			name = Object;
+			sourceTree = "<group>";
+		};
+		C9C462131D66FA0800C1C9CB /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				C9C462141D66FA5300C1C9CB /* MapBlock.swift */,
+				C9C462161D67098500C1C9CB /* MapBlockManager.swift */,
+				C9C4621E1D68801000C1C9CB /* ConstValue.swift */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		C9C462181D67D59F00C1C9CB /* Publish */ = {
+			isa = PBXGroup;
+			children = (
+				C9C4621B1D67D63400C1C9CB /* MapBlock */,
+				C9C462191D67D5BC00C1C9CB /* Info */,
+			);
+			name = Publish;
+			path = Sources/SceneServer;
+			sourceTree = "<group>";
+		};
+		C9C462191D67D5BC00C1C9CB /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				C9C4621A1D67D60F00C1C9CB /* mapinfo.json */,
+			);
+			name = Info;
+			sourceTree = "<group>";
+		};
+		C9C4621B1D67D63400C1C9CB /* MapBlock */ = {
+			isa = PBXGroup;
+			children = (
+				C9C4621D1D67D6FB00C1C9CB /* map1001.json */,
+			);
+			name = MapBlock;
 			sourceTree = "<group>";
 		};
 		"___RootGroup_" = {
 			isa = PBXGroup;
 			children = (
 				__PBXFileRef_Package.swift /* Package.swift */,
+				C9C462181D67D59F00C1C9CB /* Publish */,
 				"_____Configs_" /* Configs */,
 				"_____Sources_" /* Sources */,
-				Dependencies_ /* Dependencies */,
 				"____Products_" /* Products */,
 			);
 			sourceTree = "<group>";
@@ -149,7 +162,6 @@
 		"____Products_" /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"_____Product_SwiftyJSON" /* SwiftyJSON.framework */,
 				"_____Product_SceneServer" /* SceneServer */,
 			);
 			name = Products;
@@ -174,24 +186,15 @@
 		"_______Group_SceneServer" /* SceneServer */ = {
 			isa = PBXGroup;
 			children = (
-				C9EFD4461D6570A100A11FAA /* Error */,
-				C9EFD4451D65708B00A11FAA /* Scene */,
-				C9EFD4441D65708000A11FAA /* Util */,
-				C9EFD4431D65707700A11FAA /* Info */,
-				C9EFD4421D65706E00A11FAA /* App */,
+				C9C462131D66FA0800C1C9CB /* Config */,
+				C9C4620E1D66E29D00C1C9CB /* Scene */,
+				C9C4620D1D66E28900C1C9CB /* Util */,
+				C9C4620C1D66E26300C1C9CB /* Info */,
+				C9C4620B1D66E25100C1C9CB /* Error */,
+				C9C4620A1D66E23B00C1C9CB /* App */,
 			);
 			name = SceneServer;
 			path = Sources/SceneServer;
-			sourceTree = "<group>";
-		};
-		"_______Group_SwiftyJSON" /* SwiftyJSON */ = {
-			isa = PBXGroup;
-			children = (
-				"__PBXFileRef_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift */,
-				__PBXFileRef_SwiftyJSON_Info.plist /* SwiftyJSON_Info.plist */,
-			);
-			name = SwiftyJSON;
-			path = "Packages/SwiftyJSON-3.0.1/Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,28 +210,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				__Dependency_SwiftyJSON /* PBXTargetDependency */,
 			);
 			name = SceneServer;
 			productName = SceneServer;
 			productReference = "_____Product_SceneServer" /* SceneServer */;
 			productType = "com.apple.product-type.tool";
-		};
-		"______Target_SwiftyJSON" /* SwiftyJSON */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
-			buildPhases = (
-				CompilePhase_SwiftyJSON /* Sources */,
-				"___LinkPhase_SwiftyJSON" /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = SwiftyJSON;
-			productName = SwiftyJSON;
-			productReference = "_____Product_SwiftyJSON" /* SwiftyJSON.framework */;
-			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -250,7 +236,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"______Target_SwiftyJSON" /* SwiftyJSON */,
 				"______Target_SceneServer" /* SceneServer */,
 			);
 		};
@@ -261,35 +246,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
+				C9C462171D67098500C1C9CB /* MapBlockManager.swift in Sources */,
+				C9C462151D66FA5300C1C9CB /* MapBlock.swift in Sources */,
 				__src_cc_ref_Sources/SceneServer/App/main.swift /* main.swift in Sources */,
 				__src_cc_ref_Sources/SceneServer/Error/Error.swift /* Error.swift in Sources */,
-				__src_cc_ref_Sources/SceneServer/Info/InfoLoader.swift /* Info/InfoLoader.swift in Sources */,
-				__src_cc_ref_Sources/SceneServer/Info/InfoManager.swift /* Info/InfoManager.swift in Sources */,
-				__src_cc_ref_Sources/SceneServer/Info/MapInfo.swift /* Info/MapInfo.swift in Sources */,
-				__src_cc_ref_Sources/SceneServer/Util/Vector2D.swift /* Util/Vector2D.swift in Sources */,
+				__src_cc_ref_Sources/SceneServer/Info/InfoLoader.swift /* InfoLoader.swift in Sources */,
+				__src_cc_ref_Sources/SceneServer/Info/InfoManager.swift /* InfoManager.swift in Sources */,
+				__src_cc_ref_Sources/SceneServer/Info/MapInfo.swift /* MapInfo.swift in Sources */,
+				__src_cc_ref_Sources/SceneServer/Util/Vector2D.swift /* Vector2D.swift in Sources */,
 				__src_cc_ref_Sources/SceneServer/Scene/Object/GameObject.swift /* GameObject.swift in Sources */,
 				__src_cc_ref_Sources/SceneServer/Scene/Scene/Scene.swift /* Scene.swift in Sources */,
 				__src_cc_ref_Sources/SceneServer/Scene/Scene/SceneManager.swift /* SceneManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CompilePhase_SwiftyJSON /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 0;
-			files = (
-				"__src_cc_ref_Packages/SwiftyJSON-3.0.1/Source/SwiftyJSON.swift" /* SwiftyJSON.swift in Sources */,
+				C9C4621F1D68801000C1C9CB /* ConstValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		__Dependency_SwiftyJSON /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = "______Target_SwiftyJSON" /* SwiftyJSON */;
-			targetProxy = C9EFD4411D656C8D00A11FAA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		_ReleaseConf_SceneServer /* Release */ = {
@@ -303,19 +275,6 @@
 			};
 			name = Release;
 		};
-		_ReleaseConf_SwiftyJSON /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = SceneServer.xcodeproj/SwiftyJSON_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-			};
-			name = Release;
-		};
 		"___DebugConf_SceneServer" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -324,20 +283,6 @@
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		"___DebugConf_SwiftyJSON" /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ENABLE_TESTABILITY = YES;
-				INFOPLIST_FILE = SceneServer.xcodeproj/SwiftyJSON_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -373,15 +318,6 @@
 			buildConfigurations = (
 				"___DebugConf_SceneServer" /* Debug */,
 				_ReleaseConf_SceneServer /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		"_______Confs_SwiftyJSON" /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				"___DebugConf_SwiftyJSON" /* Debug */,
-				_ReleaseConf_SwiftyJSON /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

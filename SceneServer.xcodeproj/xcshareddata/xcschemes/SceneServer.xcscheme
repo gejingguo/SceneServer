@@ -5,15 +5,6 @@
       <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
         <BuildableReference
           BuildableIdentifier = "primary"
-          BlueprintIdentifier = "______Target_SwiftyJSON"
-          BuildableName = "SwiftyJSON.framework"
-          BlueprintName = "SwiftyJSON"
-          ReferencedContainer = "container:SceneServer.xcodeproj">
-        </BuildableReference>
-      </BuildActionEntry>
-      <BuildActionEntry buildForTesting = "YES" buildForRunning = "YES" buildForProfiling = "YES" buildForArchiving = "YES" buildForAnalyzing = "YES">
-        <BuildableReference
-          BuildableIdentifier = "primary"
           BlueprintIdentifier = "______Target_SceneServer"
           BuildableName = "SceneServer"
           BlueprintName = "SceneServer"
